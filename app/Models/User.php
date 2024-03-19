@@ -32,6 +32,10 @@ class User extends Authenticatable
         'remember_token',
     ];
 
+    public function new() {
+        return 'new file is here';
+    }
+
     /**
      * Get the attributes that should be cast.
      *

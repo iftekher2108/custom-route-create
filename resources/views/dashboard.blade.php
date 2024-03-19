@@ -10,7 +10,9 @@
             <div class="bg-white dark:bg-gray-800 overflow-hidden shadow-sm sm:rounded-lg">
                 <div class="p-6 text-gray-900 dark:text-gray-100">
                     {{ __("You're logged in!") }}
-                    <a href="{{ url('custom') }}" class="btn btn-primary">click me</a>
+                    <a href="{{ url('custom') }}" class="btn btn-primary">custom route</a>
+                    <br>
+                    <a href="{{ url('new') }}" class="btn btn-primary">custom controller</a>
                 </div>
             </div>
         </div>
